@@ -45,7 +45,7 @@ public class ValenbisiAPI26T1v2_1 {
                 System.out.println();
 
                 // BUCLE RECORRE VECTOR FEATURES MOSTRANDO LOS DATOS SOLICITADOS.
-                
+                int contador = 0;
                 for (int i = 0; i < features.length(); i++) {
                 	JSONObject feature = features.getJSONObject(i);
                 	JSONObject atributo = feature.getJSONObject("attributes");
@@ -53,9 +53,10 @@ public class ValenbisiAPI26T1v2_1 {
                 	String name = atributo.getString("name");
                 	int available = atributo.getInt("available");
                     int free = atributo.getInt("free");
-                    
+                    contador++;
                     System.out.println("-----------------------------------\nEstacion: "+name+",\nBicis: "+available+",\nDisponible: "+free+",");
                 }    
+                System.out.println(contador);
             }
 
         } catch (IOException e) {
