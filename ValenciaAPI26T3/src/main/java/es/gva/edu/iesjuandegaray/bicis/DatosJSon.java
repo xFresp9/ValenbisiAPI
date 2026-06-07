@@ -71,7 +71,7 @@ public class DatosJSon {
 					
 					// Añade aquí el Código para recorrer el vector de objetos JSON, con los datos de las
 					//estaciones y preparar el vector de
-					// valores (atributo values de esta clase).
+					// valores (atributo values de esta clase).a
 					// BUCLE SENCILLO
 					
 					for (int i = 0; i < getNumEst(); i++) {

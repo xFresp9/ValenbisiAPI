@@ -38,7 +38,7 @@ public class ConexionBDD extends JFrame {
 	private static final String url="jdbc:mysql://localhost:3306/valenbicibd";
 	
 	/**
-	 * Launch the application.
+	 * Launch the application.a
 	 */
 	
 	public Connection conector() {
